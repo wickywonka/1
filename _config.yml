@@ -44,7 +44,7 @@ sns:
   github: '//'
 
 # Tags 设置标签
-recommend-tags: false # whether or not display recommend-tags on the sidebar
+recommend-tags: true # whether or not display recommend-tags on the sidebar
 recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
 
 # Build settings
@@ -62,3 +62,7 @@ RSS: true
 
 # Plugins
 gems: [jekyll-paginate]
+
+# Support for LiveRe comments system.
+# You can get your uid from https://livere.com/insight/myCode (General web site)
+livere_uid: "MTAyMC8zMzYzOC8xMDE5Mw=="
