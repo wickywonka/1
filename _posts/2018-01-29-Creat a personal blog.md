@@ -46,7 +46,7 @@ tags: 个人教程
 　　打开本地仓库文件夹，有一个名为_posts的文件夹，要发表的博文都要放在这里，文件名称格式为“年-月-日-博客名称.md”，如2018-01-01-Hello World.md <br>
 　　书写博客使用markdown语言，可以阅读官方文档进行学习，markdown语言十分简单，可以迅速学会，官方文档的地址为http://wowubuntu.com/markdown/<br>
 　　写完后使用cmd并跳转到本地仓库路径，输入以下代码<br>
-`jekyll s` <br>
+　　`jekyll s` <br>
 　　然后就可以在浏览器中输入http://127.0.0.1:4000/，来检查自己的博客在正式的网站上是什么样子，没问题后就可以从本地推送到远端
 #### 将博文从本地推送到远端
 　　在本地仓库更改或添加文件后，GitHub desktop的changes一列就会显示出来，在填写summary和description后点击commit and master，然后再点击fetch origin就完成推送了，然后就去GitHub pages欣赏你的博文吧
