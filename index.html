@@ -71,12 +71,13 @@ header-img: assets/img/banner.jpg
                         <a href="{{ s[1] }}" target="_blank">
                             <i class="iconfont icon-{{ s[0] }}"></i>
                         </a>
+						
                     </li>
                     {% endfor %}
                 </ul>
                 {% endif %}
             </section>
-
+			
             {% if site.recommend-tags and site.tags.size>0 %}
             <section class="tags-card">
                 {% for tag in site.tags %}
@@ -84,11 +85,13 @@ header-img: assets/img/banner.jpg
                         {% break %}
                     {% endif %}
                     <a href="{{ "tags.html#" | append: tag[0] | prepend: site.baseurl }}" class="tag">{{ tag[0]}}</a>
+					
                 {% endfor %}
             </section>
             {% endif %}
+			
         </div>
-<a href="{{ site.url }}/feed.xml">RSS订阅</a>  
+
         {% if site.search %}
         <div class="search-card">
             <input id="search_input" type="text" placeholder="Search...">

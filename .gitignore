@@ -4,3 +4,8 @@
 node_modules
 
 _site
+index.html
+_layouts/feed.xml
+feed.xml
+feed.xml
+index.html

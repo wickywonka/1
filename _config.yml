@@ -25,7 +25,7 @@ search: false
 nightMode: true
 
 # Comments
-disqus: true
+disqus: false
 disqus_url: 'https://liaokeyu.disqus.com/embed.js'
 
 # Share
@@ -41,7 +41,7 @@ postPatterns: 'food'
 # SNS settings 配置社交网站url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   weibo: '//'
-  github: '//'
+  github: '//github.com/wickywonka'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
